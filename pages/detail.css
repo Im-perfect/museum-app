@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: #faf2db;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    margin: 0;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+main {
+    background: white;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 2rem 0;
+}
+
+.artObject {
+    max-width: 80%;
+    max-height: 20rem;
+    margin: 1rem;
+}
+
+/* h2::after {
+    content: "";
+    height: 3px;
+    background: linear-gradient(120deg,#3498db,#e0b4f3);
+    width: 30%;
+    position: absolute;
+    top: 35px;
+} */
+.section-heading {
+    position: relative;
+    display: inline-block;
+}
+.underline {
+    height: 3px;
+    background: linear-gradient(120deg,#3498db,#e0b4f3);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+}
+
+#name {
+    font-size: 15px;
+    color: #333;
+    width: 80%;
+    background: none;
+    padding: 0 5px;
+    height: 40px;
+    border: solid 1px#3498db;
+}
+
+#msg {
+    font-size: 15px;
+    color: #333;
+    width: 80%;
+    background: none;
+    padding: 5px 5px;
+    border: solid 1px#3498db;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.post-button {
+    margin-top: 10px;
+    padding: 0;
+}
+.post-button button {
+    width: 80%;
+    border: none;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    background: linear-gradient(120deg,#3498db,#e0b4f3);
+}
